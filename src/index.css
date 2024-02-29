@@ -1,0 +1,140 @@
+.book-list {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid red;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+
+  width: 100%;
+}
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: pink;
+  border-radius: 15px;
+}
+.grid-item img {
+  width: 60%;
+}
+.add-book form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.add-book {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.add-book form input {
+  width: 300px;
+  height: 40px;
+  border: none;
+  background-color: rgb(167, 229, 229);
+  text-align: center;
+  border-radius: 15px;
+}
+.add-book button {
+  width: 100px;
+  background-color: rgb(74, 74, 253);
+  border: none;
+  color: white;
+  border-radius: 10px;
+  height: 40px;
+}
+
+.edit-detail form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.btn {
+  width: 80px;
+  height: 40px;
+  border: none;
+  background-color: rgb(67, 67, 235);
+  color: white;
+  border-radius: 10px;
+}
+.btns {
+  display: flex;
+  gap: 5px;
+}
+.main-input {
+  width: 300px;
+  height: 40px;
+  border: none;
+  background-color: rgb(167, 229, 229);
+  text-align: center;
+  border-radius: 15px;
+}
+.btn-add {
+  width: 100px;
+  height: 40px;
+  border: none;
+  background-color: rgb(67, 67, 235);
+  color: white;
+  border-radius: 10px;
+}
+
+.edit-detail form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.edit-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.edit-detail input {
+  width: 300px;
+  height: 40px;
+  border: none;
+  background-color: rgb(167, 229, 229);
+  text-align: center;
+  border-radius: 15px;
+}
+.edit-detail button {
+  width: 100px;
+  height: 40px;
+  border: none;
+  background-color: rgb(67, 67, 235);
+  color: white;
+  border-radius: 10px;
+}
+.cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  background-color: aquamarine;
+  border-radius: 20px;
+}
+.cont img {
+  width: 50%;
+}
